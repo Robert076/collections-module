@@ -4,3 +4,5 @@ a = 'This is a sentence that has multiple words. Each word from these words can 
 c = Counter(a.lower().split(" "))
 
 print(c)
+
+print(c.most_common(2))
